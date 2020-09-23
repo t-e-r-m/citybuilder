@@ -27,7 +27,7 @@ endif()
 
 # citybuilder uses C++11 features
 if(CMAKE_COMPILER_IS_GNUCXX)
-	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lsfml-graphics -lsfml-window -lsfml-system")
 endif()
 
 # Add directory containing FindSFML.cmake to module path
