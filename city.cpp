@@ -5,6 +5,7 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
+#include <numeric>
 
 #include "city.hpp"
 #include "tile.hpp"
